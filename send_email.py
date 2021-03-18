@@ -11,7 +11,7 @@ class Email():
 
     def send_email(self):
         email_user = 'nikhilbaliyan113@gmail.com'
-        email_password = 'svadimidgeptasip'
+        email_password = 'sender_password'
         email_send = self.recipient_email
         subject = self.subject
         msg = MIMEMultipart()
